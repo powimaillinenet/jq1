@@ -5,7 +5,7 @@ $(function () {
 
     $ul.on("click","li",function () {
         $.get("http://pdfstep.zzz.com.ua",function (resp) {
-            alert(resp);
+            console.log(resp);
         })
 		$.get("http://pdfstep.zzz.com.ua",function (resp) {
             alert(resp);
